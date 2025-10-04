@@ -1,0 +1,104 @@
+[
+    {
+      "_id": "hoodie-1",
+      "costumeName": "Official Black Panther logo Hoodie",
+      "originalPrice": 1599,
+      "discountPrice": 999,
+      "category": "hoodies",
+      "imageUrl": "/products/hoodies/hoodie1.jpg"
+    },
+
+    {
+        "_id": "hoodie-2",
+        "costumeName": "Official Spider Man logo printed Hoodie",
+        "originalPrice": 1599,
+        "discountPrice": 999,
+        "category": "hoodies",
+        "imageUrl": "/products/hoodies/hoodie2.jpg"
+    },
+
+    {
+        "_id": "hoodie-3",
+        "costumeName": "Official Iron Man Hoodie",
+        "originalPrice": 1599,
+        "discountPrice": 999,
+        "category": "hoodies",
+        "imageUrl": "/products/hoodies/hoodie3.jpg"
+    },
+
+    {
+        "_id": "hoodie-4",
+        "costumeName": "Official Marvel logo carved Hoodie",
+        "originalPrice": 1599,
+        "discountPrice": 999,
+        "category": "hoodies",
+        "imageUrl": "/products/hoodies/hoodie4.jpg"
+    },
+
+    {
+        "_id": "hoodie-5",
+        "costumeName": "Official Dead Pool Hoodie",
+        "originalPrice": 1599,
+       "discountPrice": 999,
+        "category": "hoodies",
+        "imageUrl": "/products/hoodies/hoodie5.jpg"
+    },
+    {
+        "_id": "hoodie-6",
+        "costumeName": "Official Avengers logo carved Hoodie",
+        "originalPrice": 1599,
+       "discountPrice": 999,
+        "category": "hoodies",
+        "imageUrl": "/products/hoodies/hoodie6.jpg"
+    },
+    {
+        "_id": "hoodie-7",
+        "costumeName": "Official Captain America Hoodie",
+        "originalPrice": 1599,
+        "discountPrice": 999,
+        "category": "hoodies",
+        "imageUrl": "/products/hoodies/hoodie7.jpg"
+    },
+    {
+        "_id": "hoodie-8",
+        "costumeName": "Official Spider Man Black Hoodie",
+        "originalPrice": 1599,
+        "discountPrice": 999,
+        "category": "hoodies",
+        "imageUrl": "/products/hoodies/hoodie8.jpg"
+    },
+    {
+        "_id": "hoodie-9",
+        "costumeName": "Official Spider Man Red coloured Hoodie",
+        "originalPrice": 1599,
+        "discountPrice": 999,
+        "category": "hoodies",
+        "imageUrl": "/products/hoodies/hoodie9.jpg"
+    },
+    {
+        "_id": "hoodie-10",
+        "costumeName": "Official Spider Man Blue coloured Hoodie",
+        "originalPrice": 1599,
+        "discountPrice": 999,
+        "category": "hoodies",
+        "imageUrl": "/products/hoodies/hoodie10.jpg"
+    },
+    {
+        "_id": "hoodie-11",
+        "costumeName": "Official SpiderVerse logo printed Hoodie",
+        "originalPrice": 1599,
+        "discountPrice": 999,
+        "category": "hoodies",
+        "imageUrl": "/products/hoodies/hoodie11.jpg"
+    },
+    {
+        "_id": "hoodie-12",
+        "costumeName": "Official Venom (glow in dark) logo printed Hoodie",
+        "originalPrice": 1599,
+        "discountPrice": 999,
+        "category": "hoodies",
+        "imageUrl": "/products/hoodies/hoodie12.jpg"
+    }
+    
+  ]
+  

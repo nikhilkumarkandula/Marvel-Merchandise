@@ -1,0 +1,103 @@
+[
+    {
+      "_id": "t-shirt-1",
+      "costumeName": "Official Dead Pool logo Text T-shirt",
+      "originalPrice": 999,
+      "discountPrice": 499,
+      "category": "hoodies",
+      "imageUrl": "/products/t-shirts/tshirt1.jpg"
+    },
+
+    {
+        "_id": "t-shirt-2",
+        "costumeName": "Official Black Panther Text T-shirt",
+        "originalPrice": 999,
+        "discountPrice": 499,
+        "category": "hoodies",
+        "imageUrl": "/products/t-shirts/tshirt2.jpg"
+    },
+
+    {
+        "_id": "t-shirt-3",
+        "costumeName": "Official Loki Mischief T-shirt",
+        "originalPrice": 999,
+        "discountPrice": 499,
+        "category": "hoodies",
+        "imageUrl": "/products/t-shirts/tshirt3.jpg"
+    },
+
+    {
+        "_id": "t-shirt-4",
+        "costumeName": "Official Spider Man logo T-shirt",
+        "originalPrice": 999,
+        "discountPrice": 499,
+        "category": "hoodies",
+        "imageUrl": "/products/t-shirts/tshirt4.jpg"
+    },
+
+    {
+        "_id": "t-shirt-5",
+        "costumeName": "Official Marvel logo T-shirt",
+        "originalPrice": 999,
+        "discountPrice": 499,
+        "category": "hoodies",
+        "imageUrl": "/products/t-shirts/tshirt5.jpg"
+    },
+    {
+        "_id": "t-shirt-6",
+        "costumeName": "Official Stark Industries logo T-shirt",
+        "originalPrice": 999,
+        "discountPrice": 499,
+        "category": "hoodies",
+        "imageUrl": "/products/t-shirts/tshirt6.jpg"
+    },
+    {
+        "_id": "t-shirt-7",
+        "costumeName": "Official Dead Pool fiery eyes T-shirt",
+        "originalPrice": 999,
+        "discountPrice": 499,
+        "category": "hoodies",
+        "imageUrl": "/products/t-shirts/tshirt7.jpg"    
+    },
+    {
+        "_id": "t-shirt8",
+        "costumeName": "Official Captain America logo T-shirt",
+        "originalPrice": 999,
+        "discountPrice": 499,
+        "category": "hoodies",
+        "imageUrl": "/products/t-shirts/tshirt8.jpg"    
+    },
+    {
+        "_id": "t-shirt-9",
+        "costumeName": "Official Iron Man I'm Invincible Logo text T-shirt",
+        "originalPrice": 999,
+        "discountPrice": 499,
+        "category": "hoodies",
+        "imageUrl": "/products/t-shirts/tshirt9.jpg"    
+    },
+    {
+        "_id": "t-shirt-10",
+        "costumeName": "Official Avengers logo (glow in dark)  T-shirt ",
+        "originalPrice": 999,
+        "discountPrice": 499,
+        "category": "hoodies",
+        "imageUrl": "/products/t-shirts/tshirt10.jpg"
+    },
+    {
+        "_id": "t-shirt-11",
+        "costumeName": "Official Spider Man Wanna Hang! logo text T-shirt",
+        "originalPrice": 999,
+        "discountPrice": 499,
+        "category": "hoodies",
+        "imageUrl": "/products/t-shirts/tshirt11.jpg"
+    },
+    {  "_id": "t-shirt-12",
+        "costumeName": "Official Black Spider Verse red logo T-shirt",
+        "originalPrice": 999,
+        "discountPrice": 499,
+        "category": "hoodies",
+        "imageUrl": "/products/t-shirts/tshirt12.jpg"
+    }
+    
+  ]
+  
