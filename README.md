@@ -58,5 +58,46 @@ The project contains two main folders:
    git clone https://github.com/your-username/Marvel-Merchandise.git
    cd Marvel-Merchandise
 ```
+---
+### 2. Run backend Server
+   ```bash
+   cd backend
+   npm run dev or npm start
+```
+### 3. Run frontend
+   ```bash
+   cd frontend
+   npm run dev
+```
+### 4 Open the url
+   localhost:5173
+
+
 
 Enjoy building your Marvel Merchandise store! 🚀
+
+
+
+## 💡 Assumptions and Design Choices
+- The app uses **MongoDB Atlas** for database connectivity (can also run locally).  
+- **Redis** is optional — used only for the OTP verification in forgot-password.  
+- **Zustand** is used for state management instead of Redux for simplicity and performance.  
+- **Tailwind CSS** is used for styling for faster UI development.  
+- **Ports** are fixed:  
+  - Backend → `3000`  
+  - Frontend → `5173`  
+- **Authentication** uses JWT-based token storage in localStorage.
+
+---
+
+## 🧪 Running Test Cases
+Currently, the project does not include automated test cases.  
+Manual testing can be done by:
+- Signing up and signing in through the frontend.
+- Adding items to the cart.
+- Placing an order.
+- Using the forgot-password flow to test OTP functionality (if Redis is configured).
+---
+
+### Running Tests
+Currently, no automated tests are included. All features were manually tested for functionality.
