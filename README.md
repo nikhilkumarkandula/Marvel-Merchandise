@@ -20,7 +20,7 @@ The project contains two main folders:
    npm install
 3. Create a .env file in the backend folder and add:
     MONGODB_URL=your_mongodb_connection_url
-    Redis setup is optional, only required for the OTP forgot-password module.
+    -- Redis setup is optional, only required for the OTP forgot-password module.
     **(To include forgot-password you need to set up the env varibales for your redis account and you need to give a email and its api-password to send mails or you can leave it to my account.)**
 
 4. Start the server:
