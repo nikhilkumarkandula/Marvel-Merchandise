@@ -1,103 +1,163 @@
-# Marvel Merchandise 🦸‍♂️🛒
-E-commerce website for Marvel-themed costumes.  
-Built using the **MERN stack**: **MongoDB, Express, React, Node.js**.
+# 🦸‍♂️ Marvel Merchandise 🛒
+
+An e-commerce web application for Marvel-themed costumes, built using the **MERN stack** — **MongoDB, Express, React, Node.js**.
+The app allows users to browse Marvel-inspired collections, add items to the cart, place orders, and optionally reset passwords using OTP verification with Redis.
 
 ---
 
 ## 📂 Project Structure
-The project contains two main folders:
-- **backend/** → Node.js, Express.js, MongoDB, Redis  
-- **frontend/** → React, React Router DOM, Zustand, Tailwind CSS, and other supporting packages  
+
+```
+Marvel-Merchandise/
+│
+├── backend/   # Node.js + Express + MongoDB + Redis
+│
+└── frontend/  # React + React Router DOM + Zustand + Tailwind CSS + DaisyUI
+```
 
 ---
 
 ## ⚙️ Backend Setup (Port: 3000)
-1. Navigate to the backend folder:
-   ```bash
-   cd backend
-2. Install dependencies:
-   ```bash
-   npm install
-3. Create a .env file in the backend folder and add:
-    MONGODB_URL=your_mongodb_connection_url
-    -- Redis setup is optional, only required for the OTP forgot-password module.
-    **(To include forgot-password you need to set up the env varibales for your redis account and you need to give a email and its api-password to send mails or you can leave it to my account.)**
 
-4. Start the server:
-   ```bash
-   npm run dev # starts with nodemon
-   or
-   npm start
+### 1️⃣ Navigate to the backend folder:
 
+```bash
+cd backend
+```
+
+### 2️⃣ Install dependencies:
+
+```bash
+npm install
+```
+
+### 3️⃣ Configure Environment Variables:
+
+Create a `.env` file inside the `backend` folder and add:
+
+```
+MONGODB_URL=your_mongodb_connection_url
+```
+
+* **Redis setup (optional):**
+  Required only if you want to enable OTP-based forgot-password functionality.
+  You’ll need to provide:
+
+  * Redis credentials
+  * Email and app password (for Nodemailer)
+
+  *(You may also use the default credentials already configured in the project for testing.)*
+
+### 4️⃣ Start the server:
+
+```bash
+npm run dev   # Starts with nodemon
+# or
+npm start
+```
+
+Backend runs on **[http://localhost:3000](http://localhost:3000)**
+
+---
 
 ## 🎨 Frontend Setup (Port: 5173)
-1. Navigate to the frontend folder:
-   ```bash
-   cd frontend
-2. Install Dependecies:
-   ```bash
-   npm install
-3. Start the server:
-   ```bash
-   npm run dev
 
-🛠 Project Flow
+### 1️⃣ Navigate to the frontend folder:
 
-1. Run the backend server **(port 3000)**.
-2. Run the frontend **(port 5173)**.
-3. Create an account and sign in.
-4. Add items to the cart.
-5. Place orders.
-6. Forgot password flow supports OTP validation via Redis (optional).
+```bash
+cd frontend
+```
 
+### 2️⃣ Install dependencies:
+
+```bash
+npm install
+```
+
+### 3️⃣ Start the server:
+
+```bash
+npm run dev
+```
+
+Frontend runs on **[http://localhost:5173](http://localhost:5173)**
+
+---
+
+## 🧭 Project Flow
+
+1. Run the backend server (**port 3000**)
+2. Run the frontend (**port 5173**)
+3. Create an account and sign in
+4. Add Marvel costumes (hoodies, t-shirts) to the cart
+5. Place an order
+6. (Optional) Use OTP-based forgot-password flow via Redis
+
+---
 
 ## 🚀 Running the Project on Your System
 
-### 1. Clone the Repository:
-   ```bash
-   git clone https://github.com/your-username/Marvel-Merchandise.git
-   cd Marvel-Merchandise
+### 1️⃣ Clone the Repository:
+
+```bash
+git clone https://github.com/your-username/Marvel-Merchandise.git
+cd Marvel-Merchandise
 ```
+
+### 2️⃣ Run Backend Server:
+
+```bash
+cd backend
+npm run dev
+# or
+npm start
+```
+
+### 3️⃣ Run Frontend:
+
+```bash
+cd frontend
+npm run dev
+```
+
+### 4️⃣ Open the App:
+
+Visit **[http://localhost:5173](http://localhost:5173)** in your browser.
+
+Enjoy building your own Marvel Merchandise Store! 🚀
+
 ---
-### 2. Run backend Server
-   ```bash
-   cd backend
-   npm run dev or npm start
-```
-### 3. Run frontend
-   ```bash
-   cd frontend
-   npm run dev
-```
-### 4 Open the url
-   localhost:5173
-
-
-
-Enjoy building your Marvel Merchandise store! 🚀
-
-
 
 ## 💡 Assumptions and Design Choices
-- The app uses **MongoDB Atlas** for database connectivity (can also run locally).  
-- **Redis** is optional — used only for the OTP verification in forgot-password.  
-- **Zustand** is used for state management instead of Redux for simplicity and performance.  
-- **Tailwind CSS** is used for styling for faster UI development.  
-- **Ports** are fixed:  
-  - Backend → `3000`  
-  - Frontend → `5173`  
-- **Authentication** uses JWT-based token storage in localStorage.
+
+* 🧩 Uses **MongoDB Atlas** (cloud) for database, can also run locally.
+* 🧠 **Zustand** chosen over Redux for lightweight and performant state management.
+* 🎨 **Tailwind CSS + DaisyUI** used for modern, fast, and responsive UI design.
+* 🔐 **JWT-based authentication** with tokens stored in localStorage.
+* ⚡ **Redis** used for OTP-based forgot-password flow (optional).
+* ⚙️ Ports:
+
+  * Backend → `3000`
+  * Frontend → `5173`
 
 ---
 
-## 🧪 Running Test Cases
-Currently, the project does not include automated test cases.  
-Manual testing can be done by:
-- Signing up and signing in through the frontend.
-- Adding items to the cart.
-- Placing an order.
-- Using the forgot-password flow to test OTP functionality (if Redis is configured).
+## 🧪 Testing
+
+Currently, no automated test cases are implemented.
+You can manually test functionality by:
+
+* Signing up and signing in.
+* Adding products to the cart.
+* Placing an order.
+* Testing forgot-password flow with Redis setup.
+
 ---
 
-### Running Tests
-Currently, no automated tests are included. All features were manually tested for functionality.
+## 🔮 Future Enhancements
+
+* 🧾 Order invoice generation
+* 🔔 Email/SMS notifications for orders
+* 💬 Live chat support
+
+---
